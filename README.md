@@ -51,13 +51,13 @@ npm run start
 
    <h2>Screenshots</h2>
     <h3>User Front Page</h3>
-    <img src="path/to/user-front-page-screenshot.png" alt="User Front Page">
+    <img src="./ReadmeImg/Screenshot (545).png" alt="User Front Page">
 
    <h3>User Tour Details Page</h3>
-    <img src="path/to/user-tour-details-screenshot.png" alt="User Tour Details Page">
+    <img src="./ReadmeImg/Screenshot (546).png" alt="User Tour Details Page">
 
-  <h3>Admin Panel</h3>
-    <img src="path/to/admin-panel-screenshot.png" alt="Admin Panel">
+  <!-- <h3>Admin Panel</h3>
+    <img src="path/to/admin-panel-screenshot.png" alt="Admin Panel"> -->
 
   <h2>Contributing</h2>
     <p>If you would like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.</p>
