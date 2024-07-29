@@ -26,7 +26,7 @@ const mongoURI = process.env.MONGO_URI as string;
   app.use('/api/admin', adminRoutes);
   app.use('/api', userRoutes);
 
-  const PORT = 8000;
+  const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
     console.log(`server is running on port ${PORT}`);
