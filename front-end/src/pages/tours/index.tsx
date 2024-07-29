@@ -21,7 +21,7 @@ const ToursList: React.FC = () => {
     const fetchTours = async () => {
       setLoading(true);
       try {
-        const res = await fetch('http://localhost:8000/api/tours');
+        const res = await fetch('https://holidays-r3z9.onrender.com/api/tours');
         const data = await res.json();
         setTours(data.tours);
       } catch (error) {

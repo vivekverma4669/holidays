@@ -27,7 +27,7 @@ const TourDetails: React.FC = () => {
 
   useEffect(() => {
     if (id) {
-      fetch(`http://localhost:8000/api/tours/${id}`)
+      fetch(`https://holidays-r3z9.onrender.com/api/tours/${id}`)
         .then((res) => res.json())
         .then((data) => setTour(data));
     }
